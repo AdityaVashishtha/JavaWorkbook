@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="3.jpeg">
+    <title>temp</title>
+    <style media="screen">
+      * {
+        font-family: sans-serif;
+      }
+      body {
+        margin: 0px;
+      }
+      #masonry {
+        margin-top: 70px;
+        animation: mansomove 1s;
+        margin-left: 150px;
+        margin-right: 150px;
+      }
+      @keyframes mansomove {
+        to {
+          margin-top: 70px;
+        }
+        from {
+          margin-top: 0px;
+        }
+      }
+      .temp {
+        border: 0px solid white;
+        border-radius: 0px;
+        width: 250px;
+        height: auto;
+        max-height: 550px;
+        overflow: hidden;
+        box-shadow: 2px 2px 3px 1px rgba(200,200,200, 0.5);
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      .cont {
+        position: relative;
+        float: left;
+        margin-left: 3%;
+        margin-top: 2%;
+      }
+      .image {
+        position: relative;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+      }
+      .image>img {
+        margin: 0px;
+        width: 100%;
+        border-bottom: 4px solid orange;
+      }
+      .image>iframe {
+        margin: 0px;
+        width: 100%;
+        border: 0px;
+        border-bottom: 4px solid orange;
+      }
+      .text {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      ta {
+        margin: 0px;
+        font-weight: bold;
+        color: gray;
+      }
+      .image>.flare {
+        position: absolute;
+        width: 100px;
+        height: 200px;
+        top: 0%;
+        left: 0%;
+        background-color: white;
+        transform: matrix(1,0,0,1,-50,-90) rotate(30deg);
+        //background: linear-gradient(305deg, transparent, transparent, transparent, transparent, #eee);
+        opacity: .4;
+      }
+      .header1 {
+        background: orange;
+        position: fixed;
+        z-index: 100;
+        background: radial-gradient(to right, orange, darkorange);
+        width: 80% ;
+        height: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        top: 0;
+        animation: headermove 1s ;
+      }
+      @keyframes headermove {
+          from{
+            width: 25% ;
+            height: 20px;
+          }
+          to {
+            width: 80% ;
+            height: 50px;
+          }
+      }
+  </style>
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+
+      </div>
+    </header>
+    <div id="masonry">
+    <div class="cont">
+      <div class="temp">
+        <div class="image">
+          <div class="flare"></div>
+          <img src="http://vignette1.wikia.nocookie.net/vsbattles/images/a/a3/Black-windows_542931.jpg/revision/latest?cb=20150317090032" alt="" />
+        </div>
+        <div class="text">
+          <ta>This is example header</ta>
+          <p>
+            Okay this is content of the above head and done it <i>this works fine</i> <em>hehehehe</em>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cont">
+      <div class="temp">
+        <div class="image">
+          <div class="flare"></div>
+          <img src="http://www.funchap.com/wp-content/uploads/2014/03/hd-black-wallpaper.jpg" alt="" />
+        </div>
+        <div class="text">
+          <ta>This is example header</ta>
+          <p>
+            Okay this is content of the above head and done it itt itititti...
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cont">
+      <div class="temp">
+        <div class="image">
+          <div class="flare"></div>
+          <img src="http://keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg" alt="" />
+        </div>
+        <div class="text">
+          <ta>This is example header</ta>
+          <p>
+            Okay this is content of the above head and done it itt itititti...
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cont">
+      <div class="temp">
+        <div class="image">
+          <div class="flare"></div>
+          <img src="1.jpg" alt="" />
+        </div>
+        <div class="text">
+          <ta>This is example header</ta>
+          <p>
+            Okay this is content of the above head and done it itt itititti...
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cont">
+      <div class="temp">
+        <div class="image">
+          <div class="flare"></div>
+          <iframe src="https://www.youtube.com/embed/jiSFfpw3Btc" width="100%" ></iframe>
+        </div>
+        <div class="text">
+          <ta>This is example header</ta>
+          <p>
+            Okay this is content of the above head and done it itt itititti...
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cont">
+      <div class="temp">
+        <div class="image">
+          <div class="flare"></div>
+          <img src="http://wallpaperwarrior.com/wp-content/uploads/2016/05/Black-Wallpaper-8.jpg" alt="" />
+        </div>
+        <div class="text">
+          <ta>This is example header</ta>
+          <p>
+            Okay this is content of the above head and done it itt itititti...
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cont">
+      <div class="temp">
+        <div class="image">
+          <div class="flare"></div>
+          <img src="https://s-media-cache-ak0.pinimg.com/236x/11/c2/80/11c280cfd0870adc9d73a3e95ab11326.jpg" alt="" />
+        </div>
+        <div class="text">
+          <ta>This is example header</ta>
+          <p>
+            Okay this is content of the above head and done it itt itititti...
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script>
+    var container = document.querySelector('#masonry');
+    var masonry = new Masonry(container, {
+      columnWidth: 100,
+      itemSelector: '.cont'
+    });
+    </script>
+
+  </body>
+</html>
