@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+    <center>
+        <h3>Registration</h3>
+        <form action="SaveUser" method="post">
+            <pre>
+            Username <input name="username" type="text" /> <br>            
+            Password <input name="password" type="password" /> <br>
+            Gender <input name="gender" type="radio" value="M" /> M
+                   <input name="gender" type="radio" value="F" /> F
+                   <br>
+            Name   <input name="name" type="text" /> <br>            
+            City   <input name="city" type="text" /> <br>            
+            Degree 
+            <select name="degree">
+                <option value="BE">BE</option>
+                <option value="ME">ME</option>
+                <option value="LLB">LLB</option>
+            </select>
+            <br/>
+            Interest 
+            <input name="interest" type="checkbox" value="JAVA" /> Java
+            <input name="interest" type="checkbox" value="C" /> C
+            <br>
+            <input type="submit" value="Submit Details" />
+            </pre>
+        </form>   
+    </center>
+        
+    </body>
+</html>
