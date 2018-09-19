@@ -1,0 +1,51 @@
+1) Create an application to show the contents
+   of some books you have uploaded on your server.
+	a) home page to show the link to booklist
+	   page.
+	b) on the click of the link given on
+ 	   home page, one servlet will called
+	   and that servlet will show names
+	   of all the books available on server.
+	   all the names will be shown as an
+	   hyperlink.
+	c) when you click a book name one servlet
+	   will be invoked and that servlet will
+	   deliver you the contents of the book
+	   whose name is clicked by you.
+
+2) change the booklist page and show the names
+   of books as an drop down list.
+
+3) suppose the above application you want to 
+   create for registered users only.
+   a) create a registration form which will be
+   shown to user when he clicks on new-user link
+   given on home page.
+   take your form with some fields
+	username
+	password
+	gender
+	name
+	city
+	degrees
+	interest		
+   take the appropriate html components for 
+   different information.
+   b) create a table for storing the user-details.
+   c) write a servlet which will take the data
+      coming through registration form , will
+     store it to database and will send a 
+	success message to user in response.	
+
+
+
+4) create a login form 
+   through which user will submit the id/pwd.
+   that details will be received by servlet
+   and servlet will verify the credentials
+   and will respond accordingly.
+
+   
+
+
+	

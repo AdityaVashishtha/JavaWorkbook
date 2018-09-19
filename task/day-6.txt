@@ -1,0 +1,67 @@
+1) Write a java program that will accept 2 file
+   names from command line arguments. 
+   it will try to rename the first file and the
+   new name will be second one.
+
+	before try to change name
+
+	a) check for the existance of the file
+	   for which you are changing name.
+	
+	b) check whether its a file or not.
+
+	c) check for the existance of the second
+           file.
+
+	d) only change the names of the file
+           below 500 bytes.
+
+	e) at the end show a message that
+           name of xyz file has been changed to abc.
+--------------------------------------------------------
+
+2) Write a program to copy the contents of one
+   file into another one.
+
+	java CopyData abc.txt xyz.txt
+
+3) Write a program to store the names of 
+   cities to file.
+
+4) Write a program to split the contents of
+   a file in multiple files.
+
+	java SplitData data.txt 4
+
+	datasplit
+	data1.txt, data2.txt, data3.txt,data4.txt
+
+5) Write a program to merge the splitted files
+	java MergeData datasplit	
+
+6) Write a program that will accept a file name
+   will show the contents of the given file and
+   will delete it also.
+
+
+7) Write a program to merge two files using
+   SequenceInputStream.
+
+8) Create a ThreeDimGame using Game.
+   Serialize and Deserialize its instance.
+
+
+
+9) Create an Employee class with fields like
+   (eno,ename,sal,desg,dept).
+   a) write a class which will accept inputs 
+      from users for all fields.
+      store all the values in Employee object.
+      save the object to a file.
+   b) Write a class DisplayInfo and this class
+      will deserialize the employee object and
+      will show its details.
+
+
+
+

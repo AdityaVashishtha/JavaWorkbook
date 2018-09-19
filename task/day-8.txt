@@ -1,0 +1,83 @@
+1)  write   class product (pcode,pname,brand,price,qunt)
+    a) store 25 product in set .Product are same 
+       if the pcode is same 
+    b)  overide the hashcode method which return
+	for all object & now search product
+	and observe  searching time
+    c)  return a diff value for  all unequal object
+	now search the same object 
+	once again  and observe  the search time 
+
+2) write a program  to store 50 products of diff.  types in view Product
+   in a collection and give the 
+   searching  , sorting  filter  by user end 
+   like(price , quntity, brand) 
+
+
+3) Create a menu based application for mainging
+   Employees of an organization in collection.
+   (temporary employees, permanent employees)
+     Menu
+	1. Add New Emp
+	2. Remove Emp
+	3. View Perm Emp
+	4. View Temp Emp
+	5. Promote Emp
+
+4) Read the data from multiple file usings
+   SequenceInputStream(more than 2).
+
+
+5) you have the sales data of a company
+
+
+	2016
+		p1
+			Domestic
+			N	S	E	W
+			10	20	30	40
+
+			Export
+			N	S	E	W
+			15	25	35	45
+
+
+		p2
+			Domestic
+			N	S	E	W
+			10	20	30	40
+
+			Export
+			N	S	E	W
+			15	25	35	45
+
+	2017
+		p1
+			Domestic
+			N	S	E	W
+			10	20	30	40
+
+			Export
+			N	S	E	W
+			15	25	35	45
+
+
+		p2
+			Domestic
+			N	S	E	W
+			10	20	30	40
+
+			Export
+			N	S	E	W
+			15	25	35	45
+
+
+1) store the data using appropriate array.
+2) find out the total sales during 2 years.
+3) find out the product wise sale for 2 years.
+4) find out the product wise early sale.
+5) find out the sale of region-wise.
+6) find out the total domestic sale for 2 years
+7) find out the export sale for 2 years.
+
+

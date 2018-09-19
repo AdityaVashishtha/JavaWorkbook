@@ -8,26 +8,29 @@ import java.util.Scanner;
 
 public class StudentCollection {
 
+    public static ArrayList<Student> addStudents() {
+        
+        ArrayList<Student> studentList = new ArrayList<Student>();       
+        
+        studentList.add(new Student(1, "Abhinav", "CS", 5, 500));
+        studentList.add(new Student(2, "Abhishek", "IT", 5, 400));
+        studentList.add(new Student(3, "Suraj", "IT", 5, 300));
+        studentList.add(new Student(4, "Srajan", "IT", 5, 250));
+        studentList.add(new Student(5, "Aastha", "IT", 5, 460));
+        studentList.add(new Student(6, "Nidhi", "CS", 5, 410));
+        studentList.add(new Student(7, "Ankita", "CS", 5, 400));
+        studentList.add(new Student(8, "Ashish", "IT", 5, 390));
+        studentList.add(new Student(9, "Aditya", "CS", 5, 450));
+        studentList.add(new Student(10, "Ameya", "CS", 5, 350));
+        
+        return studentList;
+    }
+    
+    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
-        Student students[] = new Student[10];
-        students[0] = new Student(1, "Abhinav", "CS", 5, 500);
-        students[1] = new Student(2, "Abhishek", "IT", 5, 400);
-        students[2] = new Student(3, "Suraj", "IT", 5, 300);
-        students[3] = new Student(4, "Srajan", "IT", 5, 250);
-        students[4] = new Student(5, "Aastha", "IT", 5, 460);
-        students[5] = new Student(6, "Nidhi", "CS", 5, 410);
-        students[6] = new Student(7, "Ankita", "CS", 5, 400);
-        students[7] = new Student(8, "Ashish", "IT", 5, 390);
-        students[8] = new Student(9, "Aditya", "CS", 5, 450);
-        students[9] = new Student(10, "Ameya", "CS", 5, 350);        
-                
-        ArrayList<Student> studentList = new ArrayList<Student>();
-        
-        for (Student student : students) {
-            studentList.add(student);
-        }
+        ArrayList<Student> studentList = StudentCollection.addStudents();
         System.out.println(studentList);
         
         HashMap<String, ArrayList> studentMap = new HashMap<>();

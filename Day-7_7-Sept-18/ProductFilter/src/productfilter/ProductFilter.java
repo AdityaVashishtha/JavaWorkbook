@@ -23,7 +23,8 @@ public class ProductFilter {
         System.out.println("2.Sort By Brand Name");
         System.out.println("3.Sort By Price");
         System.out.println("4.Sort By Quantity");        
-        System.out.println("5.Filter By Brand");        
+        System.out.println("5.Filter By Brand");       
+        System.out.println("6.Search by pcode");
         choice = scan.nextInt();
         switch(choice) {
             case 1: 
@@ -47,6 +48,10 @@ public class ProductFilter {
                 String brand = scan.next();
                 Utility.filterByBrand(products, brand);                
                 break;
+            case 6: 
+                System.out.println("Enter Product Code");
+                int pcode = scan.nextInt();
+                Utility.searchProduct(pcode, products);
             default: break;
         }
     }    

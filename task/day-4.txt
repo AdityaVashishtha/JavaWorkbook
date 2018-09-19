@@ -1,0 +1,31 @@
+Task-1
+--------
+you are working on an insurance domain project and you need to manage
+many products (policies)
+
+LifeInsurance(pcode,pname,min_sum_assured,max_sum_assured,payment_mode,policy_term,nominee)
+HealthInsuranc(pcode,pname,sum_assured,rent_per_day,pre_hosp,post_hosp)
+VehicleInsurance(pcode,pname,sum_assured,regno,engno)
+HomeInsurance(pcode,pname,sum_assured,building_cost,appliance_cost,address)
+
+desing the above classes using proper inheritanc.
+
+methods
+constructors
+------------------------------------------------------------------------
+Task-2
+--------
+
+you are working for banking domain.
+ATM module.
+
+1) create a specification for a ATMCard.
+2) create some cards  like SBICard, ICICICard
+   implementing the ATMCard.
+3) create an ATMMachine code.
+	(your ATMMachine should accept any card)
+
+
+
+
+

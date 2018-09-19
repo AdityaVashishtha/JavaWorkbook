@@ -93,5 +93,14 @@ public class Utility {
         }
     }
     
+    public static void searchProduct(int pcode,ArrayList<Product> products) {
+        for(Product product : products) {
+            if(product.getProductCode() == pcode) {
+                System.out.println("PRODUCT FOUND AND IS ::");
+                System.out.println(product);
+            }
+        }
+    }
+    
     
 }

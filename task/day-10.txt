@@ -1,0 +1,13 @@
+users (uid,pwd,uname,city,email)
+
+
+1) Create a registration form for a user.
+
+2) Create a login form. user will enter uid,pwd
+   your application will show status.
+	(valid/invalid) user.
+
+3) write a program view employees data dept wise.
+
+4) create an employee entry form.
+   

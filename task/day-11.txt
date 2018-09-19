@@ -1,0 +1,82 @@
+1) create a form to navigate a complete table.
+   (including first, last, next, previous)
+
+2) create a single page application (desktop) for performing
+    CRUD operation in one table. (use updatable ResultSet to perform
+    CRUD operations)
+
+3) create an application where connection information will not be
+    hardcoded in any java program it will be provided from one
+   configuration file. (myconfig.txt)
+
+4) create an application which will use the nvl function only if
+    it is connecting to oracle other wise null values will be displayed.
+
+5) create an application which will show names of some databases in
+    a drop down list, when you select a database list of all tables
+    belongs to that database will appear in another drop down list
+    and when you select a table all the rows and columns of that
+    table will be shown.
+
+6) create a product table (pcode,pname,price)
+	write a procedure to compute
+        salestax,excisetax,vat
+
+7) create tables for :
+
+	emp		(eno,ename,sal,pcode)
+	projects	(pcode,ptitle,ccode)
+	clients		(ccode,cname,address,mobile)
+
+	user will pass ecode and application will
+	display ptitle, cname for that emp.
+
+8) Write an application to display the project-mates
+   of an employee.
+
+9) Write an application to display the list of
+   employees who are earning below average.
+
+10) for a product (pcode,ptitle,price,brand)
+   create a DAO class with following functionalities
+
+	a) method to add a product
+	b) method to update a product
+	c) method to delete a product
+	d) method to fetch a single product 
+	   through its code.
+	e) method to fetch all products from
+           certain brands.
+
+     write a client code to test your service
+     class.
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+ 
+
+
+
+
+
+

@@ -6,6 +6,18 @@ public class Employee {
     private String type;
     private int salary;
 
+    public Employee() {
+    }
+
+    public Employee(int employeeNumber, String name, String type, int salary) {
+        this.employeeNumber = employeeNumber;
+        this.name = name;
+        this.type = type;
+        this.salary = salary;
+    }
+    
+    
+
     @Override
     public String toString() {
         return "Employee{" + "employeeNumber=" + employeeNumber + ", name=" + name + ", type=" + type + ", salary=" + salary + '}';

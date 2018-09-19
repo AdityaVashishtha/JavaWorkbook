@@ -1,0 +1,16 @@
+1) complete the same e-commerce application
+   using proper DAO classes.
+
+2) add the module for product-update.(admin)
+
+3) add the module for product-delete.(admin)
+
+4) add the module for profile update.(buyer)
+
+5) provide a save password option to buyer.
+
+6) show an incremented price for each product
+   as per visit no.
+	upto 5 visits -	actual price
+	6 to 10	->	5% increased
+	10 onwards ->   10% increased

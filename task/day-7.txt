@@ -1,0 +1,26 @@
+create a class Stud (rno,name,branch,sem,marks)
+------------------------------------------------
+
+For all examples use appropriate generics 
+whereever required.
+
+1) create a list of students and store 10
+   student objects to that list display
+   the information of each student.
+
+2) create a list of cs students.
+   create a list of it students.
+   store these 2 separate list into a map with
+   keys "cs","it".
+   user will give a key and your program will
+   display the list of appropriate students.
+	if user passes cs , display all cs students
+	if user passes it , display all it students
+	
+3) make your class student Comparable and sort
+   the student objects on their marks and if
+   two students are same sort them on their rno.
+
+4) sort the list of Students on their names.
+   (though you already have natural sorting order
+    on marks).

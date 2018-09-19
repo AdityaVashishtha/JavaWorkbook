@@ -1,0 +1,23 @@
+1) create a registration form as shown on 
+   board.
+
+2) create a list of cities and one textfield.
+   items from list should be selected as 
+   per the characters typed in textfield.
+
+3) write an event handling code in a separate
+   class. (for any event)
+
+4) some components are there on a registration
+   form	, set the background color of 
+   component which gains the focus to green.
+   and when it looses focus it should be changed
+   to white again.
+
+5) design two list one with some items and 
+   another one empty.
+   as soon as user clicks an item in first list
+   it should be removed from first and added to
+   second.
+
+
