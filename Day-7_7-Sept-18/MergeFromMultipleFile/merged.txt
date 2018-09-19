@@ -1,0 +1,121 @@
+Modify the class written in class room session.
+
+a) add the appropriate constructors.
+	i) write constructor to intialize (ano,name)
+	ii) write constructor to initialize(ano,name,balance)
+b) write a method that may print the average of n numbers of accounts.
+c) change the setData method to static method.
+d) write a method to deposit some amount in an account.
+e) write a method to withdraw some amount from an account.
+f) write a method to compare two account objects.
+	(if all fields are same objects will considered same)
+
+you are working on an insurance domain project design the class for
+Policy (pcode,pname,ptype,minamount,maxamount,lowage,maxage)
+
+1) write the appropriate setters / getters methods.
+2) write the appropriate constructors.
+3) write one method to show the details of multiple policies.
+
+
+You are working on a eduction domain project design the class for
+Student management.
+Student(rno,name,sub1,sub2,sub3)
+1) write the appropriate setters / getters methods.
+2) write the appropriate constructors.
+3) write the method to print the report card of an individual student.
+4) manage the overall passed / overall fail candidate.
+5) write a method to print the average marks of student.
+
+Task-1
+--------
+you are working on an insurance domain project and you need to manage
+many products (policies)
+
+LifeInsurance(pcode,pname,min_sum_assured,max_sum_assured,payment_mode,policy_term,nominee)
+HealthInsuranc(pcode,pname,sum_assured,rent_per_day,pre_hosp,post_hosp)
+VehicleInsurance(pcode,pname,sum_assured,regno,engno)
+HomeInsurance(pcode,pname,sum_assured,building_cost,appliance_cost,address)
+
+desing the above classes using proper inheritanc.
+
+methods
+constructors
+------------------------------------------------------------------------
+Task-2
+--------
+
+you are working for banking domain.
+ATM module.
+
+1) create a specification for a ATMCard.
+2) create some cards  like SBICard, ICICICard
+   implementing the ATMCard.
+3) create an ATMMachine code.
+	(your ATMMachine should accept any card)
+
+
+
+
+
+1) Write any class using singleton design     pattern.
+2) Write a program for user authentication.
+   user will pass userid  and password from
+   command line arguments. your program 
+   will check whether user is a valid user or 
+   not. if user is valid give him a welcome msg.
+   if id is wrong show him id is incorrect and
+   if pwd is wrong show him pwd is incorrect.
+	(correct id is "indore" correct pwd "india")
+    (id will be case insensitive and pwd will be
+    case sensitive).
+3) Write the above program with using equalsIgnoreCase.
+
+
+4)    use will pas some city name  from command line  argument and  your programm will display there accurence  order ( can't use any builtin  short function )
+
+
+5 )  user  will pass   a sentance   and a word  from command line  argument  we have to show all the accurence  and no. of  words in given that sentence  
+
+6) write a program to count no. of charector  (small  &  capital)   digits  in  teh  given  String .  
+
+
+7) Write a program to check for a palindrome
+   using StringBuffer.
+8 ) write a  programm  to check for a palindrome  without using StringBuffer 
+9) Write a program to replace all the digits
+   with # in the given String.
+
+10)  write a programm  to print the  separate   items of  the  given String  
+String s  = " india ,australiya , usa,uk , canada" (don't use  split  or StringTokenizer)
+
+11 )   your are writing a java  programm  for  the file encryption  user will pass  a file  name   & your programm
+      will change the extension  to .enc . 
+12) Your have a string
+	String s="indore,bhopal,delhi;india,america,canada";
+   print city names and country names separately.
+
+13 ) you have a String  
+     String s  =" india ,bhopal,delhi; india,america,canada " ( dynamic input )
+
+ output should be /
+			cities 
+                        indore 
+                        bhopal
+                        dehli
+                       countries 
+                       america 
+			canada 
+
+
+14) You have a String
+	"1.Java,2.Oracle,3.Php,4.Sybase";
+	print the subject names only.
+
+15) Accept two values from command prompt.   if user is not passing second value    give him a message pass second value.
+    if user is not passing even a single value  give him a message pass two values.
+		
+
+
+
+

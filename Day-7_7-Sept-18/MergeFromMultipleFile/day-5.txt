@@ -1,0 +1,61 @@
+1) Write any class using singleton design     pattern.
+2) Write a program for user authentication.
+   user will pass userid  and password from
+   command line arguments. your program 
+   will check whether user is a valid user or 
+   not. if user is valid give him a welcome msg.
+   if id is wrong show him id is incorrect and
+   if pwd is wrong show him pwd is incorrect.
+	(correct id is "indore" correct pwd "india")
+    (id will be case insensitive and pwd will be
+    case sensitive).
+3) Write the above program with using equalsIgnoreCase.
+
+
+4)    use will pas some city name  from command line  argument and  your programm will display there accurence  order ( can't use any builtin  short function )
+
+
+5 )  user  will pass   a sentance   and a word  from command line  argument  we have to show all the accurence  and no. of  words in given that sentence  
+
+6) write a program to count no. of charector  (small  &  capital)   digits  in  teh  given  String .  
+
+
+7) Write a program to check for a palindrome
+   using StringBuffer.
+8 ) write a  programm  to check for a palindrome  without using StringBuffer 
+9) Write a program to replace all the digits
+   with # in the given String.
+
+10)  write a programm  to print the  separate   items of  the  given String  
+String s  = " india ,australiya , usa,uk , canada" (don't use  split  or StringTokenizer)
+
+11 )   your are writing a java  programm  for  the file encryption  user will pass  a file  name   & your programm
+      will change the extension  to .enc . 
+12) Your have a string
+	String s="indore,bhopal,delhi;india,america,canada";
+   print city names and country names separately.
+
+13 ) you have a String  
+     String s  =" india ,bhopal,delhi; india,america,canada " ( dynamic input )
+
+ output should be /
+			cities 
+                        indore 
+                        bhopal
+                        dehli
+                       countries 
+                       america 
+			canada 
+
+
+14) You have a String
+	"1.Java,2.Oracle,3.Php,4.Sybase";
+	print the subject names only.
+
+15) Accept two values from command prompt.   if user is not passing second value    give him a message pass second value.
+    if user is not passing even a single value  give him a message pass two values.
+		
+
+
+
+

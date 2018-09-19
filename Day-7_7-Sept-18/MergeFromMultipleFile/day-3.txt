@@ -1,0 +1,29 @@
+Modify the class written in class room session.
+
+a) add the appropriate constructors.
+	i) write constructor to intialize (ano,name)
+	ii) write constructor to initialize(ano,name,balance)
+b) write a method that may print the average of n numbers of accounts.
+c) change the setData method to static method.
+d) write a method to deposit some amount in an account.
+e) write a method to withdraw some amount from an account.
+f) write a method to compare two account objects.
+	(if all fields are same objects will considered same)
+
+you are working on an insurance domain project design the class for
+Policy (pcode,pname,ptype,minamount,maxamount,lowage,maxage)
+
+1) write the appropriate setters / getters methods.
+2) write the appropriate constructors.
+3) write one method to show the details of multiple policies.
+
+
+You are working on a eduction domain project design the class for
+Student management.
+Student(rno,name,sub1,sub2,sub3)
+1) write the appropriate setters / getters methods.
+2) write the appropriate constructors.
+3) write the method to print the report card of an individual student.
+4) manage the overall passed / overall fail candidate.
+5) write a method to print the average marks of student.
+
