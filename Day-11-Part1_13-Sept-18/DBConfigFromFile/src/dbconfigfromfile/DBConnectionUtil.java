@@ -13,18 +13,22 @@ public class DBConnectionUtil {
         String password="";    
         Connection con = null;
         try {
-            File file = new File("C:\\Users\\hp\\Documents\\Aditya_WP\\CoreJava\\Day-10_13-Sept-18\\DBConfigFromFile\\src\\dbconfigfromfile\\config.txt");
+            File file = new File("./src/dbconfigfromfile/config.txt");            
             if(file.exists()) {
                 FileInputStream fis= new FileInputStream(file);
                 byte b[] = new byte[fis.available()];
                 fis.read(b);
                 String configData = new String(b);
-                String config[] = configData.split("\n");
+                String config[] = configData.split(",");
                 if(config.length == 4) {
-                    driver = config[0].trim();
-                    url = config[1].trim();
-                    username = config[2].trim();
-                    password = config[3].trim();   
+                    driver = config[0].split("=")[1].trim();
+                    url = config[1].split("=")[1].trim();
+                    username = config[2].split("=")[1].trim();
+                    password = config[3].split("=").length > 1 ? config[3].split("=")[1].trim() : "" ;   
+                    System.out.println(driver);
+                    System.out.println(url);
+                    System.out.println(username);
+                    System.out.println(password);
                     try {
                         Class driverClass = Class.forName(driver);
                         con = DriverManager.getConnection(url, username, password);                       

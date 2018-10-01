@@ -1,0 +1,16 @@
+1) Observe the session ids from two different
+   tabs of the same browser.
+
+2) store the entire details of the products
+   in shopping cart instead of storing only
+   pcodes. and display that cart to user.
+
+3) In your shopping cart every product is
+   having a [X] link to remove an item from
+   cart.
+
+4) Show a checkbox next to each item in your
+   cart and user can select multiple checkboxes
+   and submit. all the items will be removed
+   from cart together and an updated cart will
+   be shown.

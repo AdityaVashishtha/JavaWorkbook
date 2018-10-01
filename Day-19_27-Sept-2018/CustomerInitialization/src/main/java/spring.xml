@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="customerUsingSetter" class="com.springTest.Customer">
+		<property name="cno" value="1" />
+		<property name="cname" value="Aditya" />
+		<property name="mobile" value="7896523014" />
+		<property name="city" value="Indore" />
+	</bean>
+	<bean id="customerUsingConstructor" class="com.springTest.Customer">
+		<constructor-arg value="2" />
+		<constructor-arg value="Suraj" />
+		<constructor-arg value="5698741023" />
+		<constructor-arg value="Bhopal" />
+	</bean>
+</beans>

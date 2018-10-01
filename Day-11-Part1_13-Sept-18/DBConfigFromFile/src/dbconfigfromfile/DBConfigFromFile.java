@@ -5,10 +5,10 @@
  */
 package dbconfigfromfile;
 
-import com.sun.xml.internal.bind.v2.util.FatalAdapter;
 import java.io.DataOutput;
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
+import java.sql.Connection;
 
 /**
  *
@@ -21,6 +21,9 @@ public class DBConfigFromFile {
      */
     public static void main(String[] args) {
         try {                        
+            Connection con = DBConnectionUtil.connect();
+            System.out.println(con);
+            con.close();
         } catch (Exception e) {
             e.printStackTrace();
         }

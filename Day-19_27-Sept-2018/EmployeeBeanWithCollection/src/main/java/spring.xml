@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="relative1" class="com.springTest.Relative">
+		<property name="age" value="45" />
+		<property name="name" value="RelativeOne" />
+		<property name="address" value="Indore" />
+	</bean>
+	
+	<bean id="relative2" class="com.springTest.Relative">
+		<property name="age" value="25" />
+		<property name="name" value="RelativeTwo" />
+		<property name="address" value="Bhopal" />
+	</bean>
+	
+	<bean id="employee" class="com.springTest.Employee">
+		<property name="eno" value="1" />
+		<property name="name" value="Someone" />
+		<property name="email">
+			<set>
+				<value>abc@gmail.com</value>
+				<value>xyz@gmail.com</value>
+			</set>
+		</property>
+		<property name="mobile">
+			<list>
+				<value>
+					8956231470
+				</value>
+				<value>
+					9856231470
+				</value>
+			</list>
+		</property>
+		<property name="family">
+			<map>
+				<entry key="relative1" value-ref="relative1" />
+				<entry key="relative2" value-ref="relative1" />
+			</map>
+		</property>
+	</bean>
+	
+</beans>

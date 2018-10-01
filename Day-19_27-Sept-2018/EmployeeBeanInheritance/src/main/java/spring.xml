@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="info" class="com.springTest.Info">
+		<property name="city" value="Indore" />
+		<property name="state" value="MP" />
+		<property name="qualification" value="BE" />
+	</bean>
+	
+	<bean id="infoAbstract" abstract="true">
+		<property name="city" value="Bhopal" />
+		<property name="state" value="MP" />
+		<property name="qualification" value="BE" />
+	</bean>
+	
+	<bean id="emp1" class="com.springTest.Employee" parent="info" >
+		<property name="name" value="Aditya" />
+		<property name="eno" value="1" />
+	</bean>
+	
+	<bean id="empAbstract" class="com.springTest.Employee" parent="infoAbstract" >
+		<property name="name" value="Suraj" />
+		<property name="eno" value="2" />
+	</bean>
+	
+</beans>

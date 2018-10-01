@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="rcalc" class="com.springTest.RewardCalculator">
+		<property name="card" ref="card"></property>
+	</bean>	
+	<bean id="card" class="com.springTest.GoldCard" />
+</beans>
