@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 @Entity
@@ -13,8 +14,8 @@ public class Area {
 	private int arcode;
 	private String city;
 	private String state;
-	@OneToMany(mappedBy="area")
-	private List<Emp> employees = new ArrayList<Emp>();
+	@ManyToOne
+	private Emp employee;
 	public Area(int arcode, String city, String state) {
 		super();
 		this.arcode = arcode;

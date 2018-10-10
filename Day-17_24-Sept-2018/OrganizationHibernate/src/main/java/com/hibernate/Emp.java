@@ -17,18 +17,18 @@ public class Emp {
 	private Address address;
 	@ManyToMany
 	private List<Product> products = new ArrayList<Product>();
-	@ManyToOne
-	private Area area;
+	@OneToMany(mappedBy="employee")
+	private List<Area> areas = new ArrayList<Area>();
 	@ManyToOne
 	private Branch branch;
 	
-	public Emp(int empno, Name ename, Address address, List<Product> products, Area area, Branch branch) {
+	public Emp(int empno, Name ename, Address address, List<Product> products, List<Area> area, Branch branch) {
 		super();
 		this.empno = empno;
 		this.ename = ename;
 		this.address = address;
 		this.products = products;
-		this.area = area;
+		this.areas = areas;
 		this.branch = branch;
 	}
 
@@ -68,12 +68,12 @@ public class Emp {
 		this.products = products;
 	}
 
-	public Area getArea() {
-		return area;
+	public List<Area> getArea() {
+		return areas;
 	}
 
-	public void setArea(Area area) {
-		this.area = area;
+	public void setArea(List<Area> areas) {
+		this.areas = areas;
 	}
 
 	public Branch getBranch() {
@@ -87,7 +87,7 @@ public class Emp {
 	@Override
 	public String toString() {
 		return "Emp [empno=" + empno + ", ename=" + ename + ", address=" + address + ", products=" + products
-				+ ", area=" + area + ", branch=" + branch + "]";
+				+ ", areas=" + areas + ", branch=" + branch + "]";
 	}
 
 	@Override
